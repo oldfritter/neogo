@@ -8,7 +8,7 @@ import (
 	"github.com/goccy/go-json"
 	"github.com/neo4j/neo4j-go-driver/v5/neo4j"
 
-	"github.com/rlch/neogo/internal"
+	"github.com/oldfritter/neogo/internal"
 )
 
 // NewMock creates a mock neogo [Driver] for testing.

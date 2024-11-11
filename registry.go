@@ -11,7 +11,7 @@ import (
 	"github.com/neo4j/neo4j-go-driver/v5/neo4j"
 	"github.com/spf13/cast"
 
-	"github.com/rlch/neogo/internal"
+	"github.com/oldfritter/neogo/internal"
 )
 
 // Valuer allows arbitrary types to be marshalled into and unmarshalled from

@@ -1,8 +1,8 @@
 package db
 
 import (
-	"github.com/rlch/neogo/internal"
-	"github.com/rlch/neogo/internal/tests"
+	"github.com/oldfritter/neogo/internal"
+	"github.com/oldfritter/neogo/internal/tests"
 )
 
 func c() *internal.CypherClient { return internal.NewCypherClient() }

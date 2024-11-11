@@ -4,8 +4,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/rlch/neogo/db"
-	"github.com/rlch/neogo/internal"
+	"github.com/oldfritter/neogo/db"
+	"github.com/oldfritter/neogo/internal"
 )
 
 func TestUnion(t *testing.T) {

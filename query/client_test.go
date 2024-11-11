@@ -5,11 +5,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/rlch/neogo/db"
-	"github.com/rlch/neogo/expr"
-	"github.com/rlch/neogo/internal"
-	"github.com/rlch/neogo/internal/tests"
-	_ "github.com/rlch/neogo/query"
+	"github.com/oldfritter/neogo/db"
+	"github.com/oldfritter/neogo/expr"
+	"github.com/oldfritter/neogo/internal"
+	"github.com/oldfritter/neogo/internal/tests"
+	_ "github.com/oldfritter/neogo/query"
 )
 
 func c() *internal.CypherClient { return internal.NewCypherClient() }

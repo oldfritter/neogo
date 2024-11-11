@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/neo4j/neo4j-go-driver/v5/neo4j"
-	"github.com/rlch/neogo/internal"
+	"github.com/oldfritter/neogo/internal"
 )
 
 type (
@@ -15,7 +15,7 @@ type (
 	//
 	// It can be:
 	//   - nil for referencing nothing
-	//   - string or [pkg/github.com/rlch/neogo/db.Expr] for referencing an entity by name or expression
+	//   - string or [pkg/github.com/oldfritter/neogo/db.Expr] for referencing an entity by name or expression
 	//   - pointer to a zero value
 	//   - non-string, non-zero value which will be injected as a parameter
 	//   - pointer to a field of a registered struct identifier
@@ -30,7 +30,7 @@ type (
 	// PropertyIdentifier is a type of [Identifier], which considers strings as
 	// property accessors as opposed to literals, when used in a pattern WHERE
 	// clause or ORDER BY clause. Literals may still be used by wrapping then in
-	// [pkg/github.com/rlch/neogo/db.Expr]
+	// [pkg/github.com/oldfritter/neogo/db.Expr]
 	//
 	// It is important to note that [PropertyIdentifier]'s cannot register
 	// identifiers, only refer to existing ones.
@@ -62,7 +62,7 @@ type (
 
 // Query is the interface for constructing a Cypher query.
 //
-// It can be instantiated using the [pkg/github.com/rlch/neogo.New] function.
+// It can be instantiated using the [pkg/github.com/oldfritter/neogo.New] function.
 type Query interface {
 	Reader
 	Updater[Querier]

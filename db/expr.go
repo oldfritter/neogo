@@ -3,7 +3,7 @@ package db
 import (
 	"strconv"
 
-	"github.com/rlch/neogo/internal"
+	"github.com/oldfritter/neogo/internal"
 )
 
 // Expr returns a Cypher literal [expression].

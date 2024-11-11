@@ -11,9 +11,9 @@ import (
 	"github.com/testcontainers/testcontainers-go"
 	"github.com/testcontainers/testcontainers-go/wait"
 
-	"github.com/rlch/neogo/db"
-	"github.com/rlch/neogo/internal"
-	"github.com/rlch/neogo/query"
+	"github.com/oldfritter/neogo/db"
+	"github.com/oldfritter/neogo/internal"
+	"github.com/oldfritter/neogo/query"
 )
 
 func startNeo4J(ctx context.Context) (neo4j.DriverWithContext, func(context.Context) error) {

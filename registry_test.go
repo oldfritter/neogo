@@ -10,7 +10,7 @@ import (
 	"github.com/spf13/cast"
 	"github.com/stretchr/testify/require"
 
-	"github.com/rlch/neogo/internal/tests"
+	"github.com/oldfritter/neogo/internal/tests"
 )
 
 type (

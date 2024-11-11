@@ -3,7 +3,7 @@ package neogo_test
 import (
 	"fmt"
 
-	"github.com/rlch/neogo"
+	"github.com/oldfritter/neogo"
 )
 
 func ExampleNewNode() {

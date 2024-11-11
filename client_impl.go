@@ -10,8 +10,8 @@ import (
 	"github.com/goccy/go-json"
 	"github.com/neo4j/neo4j-go-driver/v5/neo4j"
 
-	"github.com/rlch/neogo/internal"
-	"github.com/rlch/neogo/query"
+	"github.com/oldfritter/neogo/internal"
+	"github.com/oldfritter/neogo/query"
 )
 
 type (

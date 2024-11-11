@@ -3,7 +3,7 @@ package neogo
 import (
 	"reflect"
 
-	"github.com/rlch/neogo/internal"
+	"github.com/oldfritter/neogo/internal"
 )
 
 // NewNode creates a new node with a random ID.

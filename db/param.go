@@ -1,6 +1,6 @@
 package db
 
-import "github.com/rlch/neogo/internal"
+import "github.com/oldfritter/neogo/internal"
 
 // Param injects param into the [parameters] of a query. The parameter's name will
 // be based off the type of param, or can be explicitly set with [NamedParam].

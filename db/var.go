@@ -3,8 +3,8 @@ package db
 import (
 	"fmt"
 
-	"github.com/rlch/neogo/internal"
-	"github.com/rlch/neogo/query"
+	"github.com/oldfritter/neogo/internal"
+	"github.com/oldfritter/neogo/query"
 )
 
 // Var creates a [variable] from an identifier.
@@ -103,8 +103,8 @@ func VarLength(varLengthExpr internal.Expr) internal.VariableOption {
 }
 
 // Props sets the properties of a node or relationship.
-// - Keys behave as [pkg/github.com/rlch/neogo/query.PropertyIdentifier]'s
-// - Values behave as [pkg/github.com/rlch/neogo/query.ValueIdentifier]'s
+// - Keys behave as [pkg/github.com/oldfritter/neogo/query.PropertyIdentifier]'s
+// - Values behave as [pkg/github.com/oldfritter/neogo/query.ValueIdentifier]'s
 type Props = internal.Props
 
 // PropsExpr sets the properties of a node or relationship to the provided

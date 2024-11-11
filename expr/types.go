@@ -3,9 +3,9 @@ package expr
 import (
 	"strings"
 
-	"github.com/rlch/neogo"
-	"github.com/rlch/neogo/internal"
-	"github.com/rlch/neogo/query"
+	"github.com/oldfritter/neogo"
+	"github.com/oldfritter/neogo/internal"
+	"github.com/oldfritter/neogo/query"
 )
 
 // The `New` function creates a new instance of the `expression` struct, which implements the `neogo.Expression` interface. It takes a function `expr` as an argument, which defines the behavior of the expression.
